@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <div class="container">
+        <h1 style="text-align: center">Faça um orçamento</h1>
+       
+            <form action="">
+               <div class="final">
+                    <label for="">Qtd de páginas</label>
+                    <input type="number" min="1" id="qtdpg">               
+              
+                    <label for="">Preciso de Java Script</label>
+                    <input type="checkbox" id="js" value="js">    
+             
+                    <label for="">Layout</label>
+                    <div>
+                        <div><input type="radio" name="radio" value="sim" id="radio">Sim</div>                        
+                        <div><input type="radio" name="radio" id="radionao">Não</div>                     
+                    </div>               
+             
+                    <label id="prazo"></label>
+                    <input type="range" min="1" max="10" id="range">
+              
+                    <label for="" id="total"></label>
+                    <button>Enviar</button>
+                  
+               </div>    
+            
+            </form>
+    
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js">
+
+    </script>
+</html>
